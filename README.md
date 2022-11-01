@@ -10,13 +10,13 @@ Try running some of the following tasks:
 npm init -y
 npm install --save-dev hardhat
 npx hardhat
-> Create a JavaScript project.
+    > Create a JavaScript project.
 npm install --save-dev "hardhat@^2.12.1" 
 npm add --dev @nomiclabs/hardhat-etherscan
 npm add --dev dotenv
 npx hardhat help
-npx hardhat test                    // tests Lock.sol, not SimplaStorage.sol
-REPORT_GAS=true npx hardhat test    // tests Lock.sol, not SimplaStorage.sol
+npx hardhat test                    // tests Lock.sol, not SimpleStorage.sol
+REPORT_GAS=true npx hardhat test    // tests Lock.sol, not SimpleStorage.sol
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network hardhat
 npx hardhat run scripts/deploy.js --network goerli
